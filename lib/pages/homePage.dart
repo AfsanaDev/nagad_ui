@@ -8,7 +8,7 @@ class Hompage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      
+
 
       bottomNavigationBar: BottomNavigationBar(
 
@@ -20,6 +20,10 @@ class Hompage extends StatelessWidget {
       ],
 
       ),
+
+      body: Container(
+
+      )
 
     );
   }
