@@ -72,7 +72,7 @@ class Homepage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Image.asset("assets/img_17.png"),
+                          child: Image.asset("assets/nagad_logo.png"),
                         ),
                         const Padding(
                           padding: EdgeInsets.all(8.0),
