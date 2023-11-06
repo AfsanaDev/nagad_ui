@@ -21,25 +21,30 @@ class Homepage extends StatelessWidget {
 
       ),
 
-      body: Container(
-        width: 460,
-        height: 168,
+      body:Column(
+        children: [
+          Container(
+            width: double.infinity,
+            height: 130,
+            color: const Color(0xFFF24536),
+             child: const Column(
+               crossAxisAlignment: CrossAxisAlignment.center,
+               children: [
+                 Text("নগদ",style: TextStyle(
+                   fontSize:70,
+                   fontWeight: FontWeight.w600,
+                   color: Colors.white
+                 ),),
+                 Text("ডাক বিভাগের ডিজিটাল লেনদেন",style: TextStyle(
+                     fontSize: 14,
+                     fontWeight: FontWeight.w400,
+                     color: Colors.white
 
-        child: const Center(
-          child:  Column(
-            children: [
-              Text("নগদ",style: TextStyle(
-                fontSize:70,
-                fontWeight: FontWeight.w600,
-                //color: Colors.white
-              ),),
-              Text("ডাক বিভাগের ডিজিটাল লেনদেন",style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w400
-              ),)
-            ],
-          ),
-        ),
+                 ),)
+               ],
+             ),
+          )
+        ],
       ),
 
     );
