@@ -2,5 +2,5 @@ class ListViewItem{
   String gridViewItems;
   String textItems;
 
-  ListViewItem(this.gridViewItems, this.textItems);
+  ListViewItem({ required this.gridViewItems, required this.textItems});
 }

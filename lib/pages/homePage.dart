@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/serviceWidget.dart';
+
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
 
@@ -84,8 +86,19 @@ class Homepage extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              child: Column(
+                children: [
+                  ServiceWidget(),
+                ],
+              )
+            ),
           ],
+
         ),
+
+        //call services section
+
       ),
     );
   }
