@@ -58,6 +58,27 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/
+    - assets/images/10_taka_run.png
+    - assets/images/add_money.png
+    - assets/images/bill_pay.png
+    - assets/images/cash_out.png
+    - assets/images/center_img.png
+    - assets/images/contact_us.png
+    - assets/images/donation.png
+    - assets/images/emi_payment.png
+    - assets/images/insurance.png
+    - assets/images/limits_charges.png
+    - assets/images/marchant_pay.png
+    - assets/images/mobile_recharge.png
+    - assets/images/nagad_logo.png
+    - assets/images/nagad_mela.png
+    - assets/images/send_money.png
+    - assets/images/surokha.png
+    - assets/images/t20_quiz.png
+    - assets/images/transfer_money.png
+    - assets/images/zakat_calculator.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -65,9 +86,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/
-    - assets/icons/
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

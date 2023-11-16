@@ -4,20 +4,20 @@ import 'package:nagad/datas/listViewItems.dart';
 class ServiceWidget extends StatelessWidget {
   List listItemName = [
     ListViewItem(
-        gridViewItems: " assets/send_money.png", textItems: " Send Money"),
-    ListViewItem(gridViewItems: " assets/cash_out.png", textItems: " Cash Out"),
+        gridViewItems: " assets/images/send_money.png", textItems: " Send Money"),
+    ListViewItem(gridViewItems: " assets/cash_out.png", textItems: " Cash Out",),
     ListViewItem(
-        gridViewItems: " assets/mobile_recharge.png",
+        gridViewItems: " assets/images/mobile_recharge.png",
         textItems: " Mobile Recharge"),
     ListViewItem(
-        gridViewItems: " assets/icons/add_money.png", textItems: " Add Money"),
+        gridViewItems: " assets/images/add_money.png", textItems: " Add Money"),
     ListViewItem(
-        gridViewItems: " assets/icons/transfer_money.png",
+        gridViewItems: " assets/images/transfer_money.png",
         textItems: " Transfer Money"),
     ListViewItem(
-        gridViewItems: " assets/icons/insurance.png", textItems: " Insurance"),
+        gridViewItems: " assets/images/insurance.png", textItems: " Insurance"),
     ListViewItem(
-        gridViewItems: " assets/icons/nagad_mela.png",
+        gridViewItems: " assets/images/nagad_mela.png",
         textItems: " Nagad Mela"),
   ];
 
@@ -57,7 +57,8 @@ class ServiceWidget extends StatelessWidget {
                     ),
                     child: Image(
                         height: 80,
-                        image: AssetImage(listItemName[index].gridViewItems)),
+                        image:
+                       AssetImage("assets/images/${listItemName[index].gridViewItems}")),
                   ),
                   Text(listItemName[index].textItems)
                 ],

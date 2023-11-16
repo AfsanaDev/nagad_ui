@@ -23,7 +23,7 @@ class Homepage extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              height: 160,
+              height: 180,
               color: const Color(0xFFF24536),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -31,7 +31,7 @@ class Homepage extends StatelessWidget {
                   Row(
                     children: [
                       Container(
-                        margin: const EdgeInsets.only(left: 205, top: 10),
+                        margin: const EdgeInsets.only(left: 120, top: 15),
                         child: const Text(
                           "নগদ",
                           style: TextStyle(
@@ -43,7 +43,7 @@ class Homepage extends StatelessWidget {
                       ), //this is nagad text container
 
                       Container(
-                          margin: const EdgeInsets.only(left: 180, right: 11),
+                          margin: const EdgeInsets.only(left: 90, right: 11),
                           child: const Icon(
                             Icons.notifications,
                             color: Colors.white,
@@ -58,8 +58,8 @@ class Homepage extends StatelessWidget {
                   const Text(
                     'Afsana Akter',
                     style: TextStyle(
-                        fontSize: 14,
-                        fontWeight: FontWeight.w600,
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),
 
@@ -74,7 +74,7 @@ class Homepage extends StatelessWidget {
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Image.asset("assets/nagad_logo.png"),
+                          child: Image.asset("assets/images/nagad_logo.png"),
                         ),
                         const Padding(
                           padding: EdgeInsets.all(8.0),
