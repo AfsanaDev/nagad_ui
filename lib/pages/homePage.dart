@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:nagad/widgets/paymentWidget.dart';
 
 import '../widgets/serviceWidget.dart';
 
 class Homepage extends StatelessWidget {
-  const Homepage({super.key});
+  const Homepage({super.key}); 
 
   @override
   Widget build(BuildContext context) {
@@ -90,6 +91,7 @@ class Homepage extends StatelessWidget {
               child: Column(
                 children: [
                   ServiceWidget(),
+                  PaymentWidget()
                 ],
               )
             ),
